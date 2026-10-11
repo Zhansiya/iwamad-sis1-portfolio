@@ -1,9 +1,9 @@
 :root {
-    --bg: #f8f8f6;
-    --surface: #ffffff;
-    --text: #1c1c1c;
-    --text-secondary: #666666;
-    --accent: #5b6f62;
+    --bg: #fff4e8;
+    --surface: #5fa8a0;
+    --text: #231815;
+    --text-secondary: #4a2e27;
+    --accent: #e76f51;
     --border: #ddddda;
     --error: #b91c1c;
     --success: #2f6b45;
@@ -416,4 +416,15 @@ textarea:focus-visible {
     .submit-button {
         width: 100%;
     }
+}
+
+html[data-theme="dark"] {
+    --bg: #111312;
+    --surface: #0f6b6d;
+    --text: #f7b08a;
+    --text-secondary: #fff4e8;
+    --accent: #e76f51;
+    --border: #343834;
+    --error: #ff8a8a;
+    --success: #8fd5a6;
 }
